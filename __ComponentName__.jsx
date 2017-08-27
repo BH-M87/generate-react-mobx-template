@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';/* IF mobx */
+import PropTypes from 'prop-types';
+/* IF mobx */
 import { observable, action } from 'mobx';
-import { observer } from 'mobx-react';/* ENDIF */
+import { observer } from 'mobx-react';
+/* ENDIF */
 import utils from 'core/utils';
 import styles from './__ComponentName__.scss';
 
