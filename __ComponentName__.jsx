@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 /* IF mobx */
-import { observable, action, toJS } from 'mobx';
+import { observable, computed, action, toJS } from 'mobx';
 import { observer } from 'mobx-react';
 /* ENDIF */
 import utils from 'core/utils';
