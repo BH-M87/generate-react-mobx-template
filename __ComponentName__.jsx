@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 /* IF mobx */
 import { observable, computed, action, toJS } from 'mobx';
 import { observer } from 'mobx-react';
+import http from 'core/http';
 /* ENDIF */
 import utils from 'core/utils';
 import styles from './__ComponentName__.scss';
