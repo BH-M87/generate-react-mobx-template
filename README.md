@@ -3,6 +3,15 @@ Template when generating react mobx using generate-react-template in VSCode
 
 Usage refers to https://marketplace.visualstudio.com/items?itemName=joshjg.generate-react-component
 
+## Usage
+1. Install the extention of VSCode first: ext install generate-react-component.
+2. Clone this project into your local workspace.
+3. Change the config "generate-react-component.componentTemplatePath" in VSCode preference to the path of this project in your local drive.
+4. Right click any directory in the explorer panel.
+5. Select component or container.
+6. Input name and choose options.
+7. Submit and happy coding.
+
 ## Syntax
 
 Template syntax is very simple:
