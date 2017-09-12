@@ -6,11 +6,12 @@ Usage refers to https://marketplace.visualstudio.com/items?itemName=joshjg.gener
 ## Usage
 1. Install the extention of VSCode first: ext install generate-react-component.
 2. Clone this project into your local workspace.
-3. Change the config "generate-react-component.componentTemplatePath" in VSCode preference to the path of this project in your local drive.
-4. Right click any directory in the explorer panel.
-5. Select component or container.
-6. Input name and choose options.
-7. Submit and happy coding.
+3. Change the config "generate-react-component.componentTemplatePath" in VSCode preference (Keyboard shortcuts: cmd + ,)to the path of this project in your local drive.
+4. Change "generate-react-component.conditionals" if you added additional condition.
+5. Right click any directory in the explorer panel.
+6. Select component or container.
+7. Input name and choose options.
+8. Submit and happy coding.
 
 ## Syntax
 
