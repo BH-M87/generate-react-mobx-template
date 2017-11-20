@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 /* IF mobx */
 import { observable, computed, action, toJS } from 'mobx';
 import { observer } from 'mobx-react';
-import http from 'core/http';
+import http from 'common/http';
 /* ENDIF */
-import utils from 'core/utils';
+import utils from 'common/utils';
 import styles from './__ComponentName__.scss';
 
 const PREFIX = '__ComponentName__';
