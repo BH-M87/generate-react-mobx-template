@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { observable, computed, action, toJS } from 'mobx';
 import { observer } from 'mobx-react';
 /* ENDIF */
-import './__ComponentName__.scss';
+import './__ComponentName__.less';
 
 /* IF !class */
 const __ComponentName__ = () => (

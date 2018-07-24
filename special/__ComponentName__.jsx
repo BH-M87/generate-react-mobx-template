@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 /* IF mobx */
 import { observable, computed, action, toJS } from 'mobx';
 import { observer } from 'mobx-react';
 import http from 'common/http';
 /* ENDIF */
+import PropTypes from 'common/PropTypes';
 import utils from 'common/utils';
-import styles from './__ComponentName__.scss';
+import styles from './__ComponentName__.less';
 
 const PREFIX = '__ComponentName__';
 const cx = utils.classnames(PREFIX, styles);
