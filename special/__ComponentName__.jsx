@@ -8,8 +8,7 @@ import PropTypes from 'common/PropTypes';
 import utils from 'common/utils';
 import styles from './__ComponentName__.less';
 
-const PREFIX = '__ComponentName__';
-const cx = utils.classnames(PREFIX, styles);
+const cx = utils.classnames(styles.prefix, styles);
 
 /* IF !class */
 const __ComponentName__ = () => (
